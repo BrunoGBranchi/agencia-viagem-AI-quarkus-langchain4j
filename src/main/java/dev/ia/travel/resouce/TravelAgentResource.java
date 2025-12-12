@@ -1,5 +1,6 @@
 package dev.ia;
 
+import dev.ia.booking.tools.PackageExpert;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
