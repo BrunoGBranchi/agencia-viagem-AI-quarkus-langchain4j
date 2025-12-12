@@ -5,7 +5,7 @@ import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.UserMessage;
 import io.quarkiverse.langchain4j.RegisterAiService;
 
-@RegisterAiService
+@RegisterAiService(tools = BookingTools.class)
 public interface PackageExpert {
 
     @SystemMessage("""
@@ -16,6 +16,6 @@ public interface PackageExpert {
             Se a resposta para uma pergunta não estiver nos documentos, você deve responder educadamente:
             'Desculpe mas não tenho informações sobre isso. Posso ajudar com mais alguma duvida sobre nossos pacotes?'
             """)
-    String chat(@MemoryId String memoryId, @UserMessage String userMessage);
+    String chat(@MemoryId String userName, @UserMessage String userMessage);
 
 }
