@@ -1,4 +1,7 @@
-package dev.ia;
+package dev.ia.booking.record;
+
+import dev.ia.booking.enums.BookingStatus;
+import dev.ia.booking.enums.Category;
 
 import java.time.LocalDate;
 

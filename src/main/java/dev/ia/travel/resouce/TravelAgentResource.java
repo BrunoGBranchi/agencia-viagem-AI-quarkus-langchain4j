@@ -1,6 +1,7 @@
-package dev.ia;
+package dev.ia.travel.resouce;
 
 import dev.ia.booking.tools.PackageExpert;
+import dev.ia.configurations.security.SecurityContext;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;

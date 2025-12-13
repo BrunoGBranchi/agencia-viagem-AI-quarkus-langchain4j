@@ -1,4 +1,4 @@
-package dev.ia;
+package dev.ia.configurations;
 
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.model.embedding.EmbeddingModel;

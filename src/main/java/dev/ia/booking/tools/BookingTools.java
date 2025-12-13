@@ -1,5 +1,8 @@
-package dev.ia;
+package dev.ia.booking.tools;
 
+import dev.ia.booking.enums.Category;
+import dev.ia.booking.record.Booking;
+import dev.ia.booking.service.BookingService;
 import dev.langchain4j.agent.tool.Tool;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

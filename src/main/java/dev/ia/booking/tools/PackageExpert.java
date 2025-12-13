@@ -1,4 +1,4 @@
-package dev.ia;
+package dev.ia.booking.tools;
 
 import dev.langchain4j.service.MemoryId;
 import dev.langchain4j.service.SystemMessage;

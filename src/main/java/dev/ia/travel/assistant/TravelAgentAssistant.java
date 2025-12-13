@@ -1,4 +1,4 @@
-package dev.ia;
+package dev.ia.travel.assistant;
 
 import io.quarkiverse.langchain4j.RegisterAiService;
 

@@ -1,5 +1,9 @@
-package dev.ia;
+package dev.ia.booking.service;
 
+import dev.ia.booking.enums.BookingStatus;
+import dev.ia.booking.enums.Category;
+import dev.ia.booking.record.Booking;
+import dev.ia.configurations.security.SecurityContext;
 import jakarta.enterprise.context.ApplicationScoped;
 
 import java.time.LocalDate;

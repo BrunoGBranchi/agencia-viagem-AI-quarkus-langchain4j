@@ -1,4 +1,4 @@
-package dev.ia;
+package dev.ia.configurations;
 
 import dev.langchain4j.data.document.Document;
 import dev.langchain4j.data.document.DocumentSplitter;

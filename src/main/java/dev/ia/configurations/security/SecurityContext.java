@@ -1,4 +1,4 @@
-package dev.ia;
+package dev.ia.configurations.security;
 
 public class SecurityContext {
 
